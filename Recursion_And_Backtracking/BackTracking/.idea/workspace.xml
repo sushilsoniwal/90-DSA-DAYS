@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0f2b2a-5c47-4dbd-a282-8b24a4d7a619" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BackTracking/com/company/Rat_In_Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BackTracking/com/company/Rat_In_Maze.class" afterDir="false" />
-    </list>
+    <list default="true" id="4b0f2b2a-5c47-4dbd-a282-8b24a4d7a619" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,9 +88,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.N_Queens">
-    <configuration name="All_Paths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.All_Paths" />
+  <component name="RunManager" selected="Application.N_Queens_2">
+    <configuration name="N_Queens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.N_Queens" />
       <module name="BackTracking" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N_Queens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.N_Queens" />
+    <configuration name="N_Queens_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.N_Queens_2" />
       <module name="BackTracking" />
       <extension name="coverage">
         <pattern>
@@ -158,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.All_Paths" />
       <item itemvalue="Application.Print_Paths" />
       <item itemvalue="Application.Rat_In_Maze" />
       <item itemvalue="Application.N_Queens" />
       <item itemvalue="Application.Queen" />
+      <item itemvalue="Application.N_Queens_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.N_Queens_2" />
         <item itemvalue="Application.N_Queens" />
         <item itemvalue="Application.Queen" />
         <item itemvalue="Application.Rat_In_Maze" />
         <item itemvalue="Application.Print_Paths" />
-        <item itemvalue="Application.All_Paths" />
       </list>
     </recent_temporary>
   </component>
