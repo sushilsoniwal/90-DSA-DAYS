@@ -1,7 +1,6 @@
 package com.company;
 
 public class SLL {
-
     public Node head;
     public int size;
 
@@ -22,11 +21,11 @@ public class SLL {
     // (2) Insert At Last Position.
     public void insertLast(int value) {
         Node node = new Node(value);
+        // Head is Null i.e no element presents in linked list, so insert At The First Position.
         if (head == null) {
             insertFirst(value);
             return;
         }
-
         Node temp = head;
         while (temp.next != null) {
             temp = temp.next;
@@ -36,22 +35,20 @@ public class SLL {
     }
 
     // (3) Insert At A Target Index.
-    public void insert(int value, int index) {
+    public void insert(int val, int index) {
         if (index == 0) {
-            insertFirst(value);
+            insertFirst(val);
             return;
         }
         if (index == size) {
-            insertLast(value);
-            return;
+            insertLast(val);
         }
 
         Node temp = head;
         for (int i = 1; i < index; i++) {
             temp = temp.next;
         }
-
-        Node node = new Node(value, temp.next);
+        Node node = new Node(val, temp.next);
         temp.next = node;
         size++;
     }
@@ -71,7 +68,7 @@ public class SLL {
     // (1) Delete First Node.
     public void deleteFirst() {
         if (head == null) {
-            System.out.println("List is empty");
+            System.out.println("List is already empty");
             return;
         }
         head = head.next;
@@ -80,19 +77,20 @@ public class SLL {
 
     // (2) Delete Last Node.
     public void deleteLast() {
+        // If List Is Empty.
         if (head == null) {
-            System.out.println("List is empty");
+            System.out.println("List is already empty");
             return;
         }
+
+        // If list has only one node.
         if (head.next == null) {
             head = null;
             return;
         }
         Node temp = head;
-        Node lastNode = head.next;
-        while (lastNode.next != null) {
+        while (temp.next.next != null) {
             temp = temp.next;
-            lastNode = lastNode.next;
         }
         temp.next = null;
         size--;
@@ -117,15 +115,15 @@ public class SLL {
     }
 
     /* ********** FIND THE TARGET NODE ********** */
-    public Node find(int value) {
+    public Node find(int val) {
         Node temp = head;
         while (temp != null) {
-            if (temp.data == value) {
+            if (temp.data == val) {
                 return temp;
             }
             temp = temp.next;
         }
-        return null;
+        return null; // Not Found
     }
 
     public class Node {

@@ -5,11 +5,12 @@ public class Main {
     public static void main(String[] args) {
         SLL list = new SLL();
 
+        /* ********** INSERTION IN SINGLY LINKED LIST ********** */
         System.out.print("List after inserting at first position:- ");
-        list.insertFirst(51);
-        list.insertFirst(25);
+        list.insertFirst(50);
+        list.insertFirst(30);
         list.insertFirst(22);
-        list.insertFirst(8);
+        list.insertFirst(14);
         list.insertFirst(13);
         list.display();
         System.out.println("The size is:- " + list.size);
@@ -25,6 +26,7 @@ public class Main {
         list.display();
         System.out.println("The size is:- " + list.size);
 
+        /* ********** DELETION IN SINGLY LINKED LIST ********** */
         System.out.print("list after deleting the first node:- ");
         list.deleteFirst();
         list.display();
