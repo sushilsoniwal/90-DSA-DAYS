@@ -96,6 +96,73 @@ public class SLL {
         return slow;
     }
 
+    // (9) => https://leetcode.com/problems/remove-linked-list-elements/
+    public ListNode removeElements(ListNode head, int val) {
+        while (head != null && head.val == val) {
+            head = head.next;
+        }
+        ListNode temp = head;
+        while (temp != null && temp.next != null) {
+            if (temp.next.val == val) {
+                temp.next = temp.next.next;
+            } else {
+                temp = temp.next;
+            }
+        }
+        return head;
+    }
+
+    // (10) => https://leetcode.com/problems/palindrome-linked-list/
+    public boolean isPalindrome(ListNode head) {
+        ListNode fast = head, slow = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        if (fast != null) { // odd nodes: let right half smaller
+            slow = slow.next;
+        }
+        slow = reverse(slow);
+        fast = head;
+
+        while (slow != null) {
+            if (fast.val != slow.val) {
+                return false;
+            }
+            fast = fast.next;
+            slow = slow.next;
+        }
+        return true;
+    }
+
+    public ListNode reverse(ListNode head) {
+        ListNode prev = null;
+        while (head != null) {
+            ListNode next = head.next;
+            head.next = prev;
+            prev = head;
+            head = next;
+        }
+        return prev;
+    }
+
+    // (11) => https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
+    public ListNode deleteMiddle(ListNode head) {
+        ListNode fast = head;
+        ListNode slow = head;
+        ListNode prev = head;
+
+        if (head == null || head.next == null) return null;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            prev = slow;
+            slow = slow.next;
+
+        }
+        prev.next = prev.next.next;
+        return head;
+    }
+
     public class ListNode {
         int val;
         ListNode next;
