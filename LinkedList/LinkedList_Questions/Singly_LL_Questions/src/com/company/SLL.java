@@ -58,7 +58,7 @@ public class SLL {
     }
 
     // (6) => https://leetcode.com/problems/remove-duplicates-from-sorted-list/
-    public ListNode deleteDuplicates(ListNode head) {
+    public ListNode deleteDuplicates1(ListNode head) {
         ListNode temp = head;
         while (temp != null) {
             if (temp.next == null) {
@@ -161,6 +161,50 @@ public class SLL {
         }
         prev.next = prev.next.next;
         return head;
+    }
+
+    // (12) => https://leetcode.com/problems/rotate-list/
+    public ListNode rotateRight(ListNode head, int k) {
+        if (k <= 0 || head == null || head.next == null) {
+            return head;
+        }
+        ListNode last = head;
+        int length = 1;
+        while (last.next != null) {
+            last = last.next;
+            length++;
+        }
+        last.next = head;
+        int r = k % length;
+        int s = length - r;
+        ListNode newLast = head;
+        for (int i = 0; i < s - 1; i++) {
+            newLast = newLast.next;
+        }
+        head = newLast.next;
+        newLast.next = null;
+        return head;
+    }
+
+    // (13) => https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+    public ListNode deleteDuplicates2(ListNode head) {
+        if (head == null) return null;
+        ListNode FakeHead = new ListNode(0);
+        FakeHead.next = head;
+        ListNode pre = FakeHead;
+        ListNode cur = head;
+        while (cur != null) {
+            while (cur.next != null && cur.val == cur.next.val) {
+                cur = cur.next;
+            }
+            if (pre.next == cur) {
+                pre = pre.next;
+            } else {
+                pre.next = cur.next;
+            }
+            cur = cur.next;
+        }
+        return FakeHead.next;
     }
 
     public class ListNode {
