@@ -1,6 +1,6 @@
 package com.company;
 
-public class PreOrder_Construction {
+public class PreOrder_Recursive {
     static class Node {
         int data;
         Node left;
