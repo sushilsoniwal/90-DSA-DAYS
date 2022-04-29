@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf85e8f1-035f-4f9e-b512-51f695f7620f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Tree_Constructions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_Constructions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tree_Constructions/src/com/company/PreOrder_Construction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_Constructions/src/com/company/PreOrder_Recursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$Node.class" afterDir="false" />
@@ -100,7 +99,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.InOrder_Recursive">
+  <component name="RunManager" selected="Application.PreOrder_Iterative">
     <configuration name="InOrder_Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.InOrder_Recursive" />
       <module name="Tree_Traversals" />
@@ -137,6 +136,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PreOrder_Iterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.PreOrder_Iterative" />
+      <module name="Tree_Traversals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PreOrder_Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.PreOrder_Recursive" />
       <module name="Tree_Traversals" />
@@ -155,9 +167,11 @@
       <item itemvalue="Application.PreOrder_Recursive" />
       <item itemvalue="Application.PostOrder_Recursive" />
       <item itemvalue="Application.InOrder_Recursive" />
+      <item itemvalue="Application.PreOrder_Iterative" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PreOrder_Iterative" />
         <item itemvalue="Application.InOrder_Recursive" />
         <item itemvalue="Application.PostOrder_Recursive" />
         <item itemvalue="Application.PreOrder_Recursive" />
