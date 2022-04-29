@@ -19,20 +19,27 @@ public class PreOrder_Iterative {
 
     /* PreOrder Traversal Iteratively. */
     public static void preOrder(Node root) {
-        Stack<Node> st = new Stack<>();
-        st.push(root);
+        // If the tree is empty.
         if (root == null) {
             return;
         }
 
-        while (!st.empty()) {
-            Node curr = st.peek();
-            System.out.print(curr.data + " ");
-            st.pop();
+        // create an empty stack and push the root node
+        Stack<Node> st = new Stack<>();
+        st.push(root);
 
+        // loop till stack is empty
+        while (!st.empty()) {
+            // pop a node from the stack and print it
+            Node curr = st.pop();
+            System.out.print(curr.data + " ");
+
+            // push the right child of the popped node into the stack
             if (curr.right != null) {
                 st.push(curr.right);
             }
+
+            // push the left child of the popped node into the stack
             if (curr.left != null) {
                 st.push(curr.left);
             }

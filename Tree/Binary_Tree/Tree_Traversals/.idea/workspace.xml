@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cf85e8f1-035f-4f9e-b512-51f695f7620f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree_Traversals/com/company/PreOrder_Iterative$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree_Traversals/com/company/PreOrder_Iterative$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tree_Traversals/com/company/PreOrder_Iterative.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree_Traversals/com/company/PreOrder_Iterative.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PreOrder_Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/PreOrder_Iterative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$Node.class" afterDir="false" />
@@ -99,7 +102,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.PreOrder_Iterative">
+  <component name="RunManager" selected="Application.PostOrder_Iterative">
+    <configuration name="InOrder_Iterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.InOrder_Iterative" />
+      <module name="Tree_Traversals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InOrder_Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.InOrder_Recursive" />
       <module name="Tree_Traversals" />
@@ -113,12 +129,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="PostOrder_Iterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.PostOrder_Iterative" />
       <module name="Tree_Traversals" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,32 +168,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreOrder_Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.PreOrder_Recursive" />
-      <module name="Tree_Traversals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.PreOrder_Recursive" />
       <item itemvalue="Application.PostOrder_Recursive" />
       <item itemvalue="Application.InOrder_Recursive" />
       <item itemvalue="Application.PreOrder_Iterative" />
+      <item itemvalue="Application.InOrder_Iterative" />
+      <item itemvalue="Application.PostOrder_Iterative" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PostOrder_Iterative" />
+        <item itemvalue="Application.InOrder_Iterative" />
         <item itemvalue="Application.PreOrder_Iterative" />
         <item itemvalue="Application.InOrder_Recursive" />
         <item itemvalue="Application.PostOrder_Recursive" />
-        <item itemvalue="Application.PreOrder_Recursive" />
       </list>
     </recent_temporary>
   </component>
@@ -188,5 +195,20 @@
       <updated>1651142607129</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/InOrder_Iterative.java</url>
+          <line>37</line>
+          <properties class="com.company.InOrder_Iterative" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
