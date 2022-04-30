@@ -13,7 +13,8 @@ public class PostOrder_Iterative {
         }
     }
 
-    public static void PostOrder(Node root) {
+    /* Iterative PostOrder Traversal Using 2 Stacks. */
+    public static void PostOrder_TwoStacks(Node root) {
         if (root == null) {
             return;
         }
@@ -39,6 +40,32 @@ public class PostOrder_Iterative {
         }
     }
 
+    /* Iterative PostOrder Traversal Using 1 Stack. */
+    public static void PostOrder_OneStack(Node root) {
+        Node curr = root;
+        Stack<Node> st = new Stack<>();
+        while (curr != null || !st.empty()) {
+            if (curr != null) {
+                st.push(curr);
+                curr = curr.left;
+            } else {
+                Node temp = st.peek().right;
+                if (temp == null) {
+                    temp = st.peek();
+                    st.pop();
+                    System.out.print(temp.data + " ");
+                    while (!st.empty() && temp == st.peek().right) {
+                        temp = st.peek();
+                        st.pop();
+                        System.out.print(temp.data + " ");
+                    }
+                } else {
+                    curr = temp;
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
         Node root = new Node(1);
         root.left = new Node(2);
@@ -51,6 +78,7 @@ public class PostOrder_Iterative {
         root.right.right.left = new Node(9);
         root.right.right.right = new Node(10);
 
-        PostOrder(root);
+        PostOrder_TwoStacks(root);
+        PostOrder_OneStack(root);
     }
 }

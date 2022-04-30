@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf85e8f1-035f-4f9e-b512-51f695f7620f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree_Traversals/com/company/PreOrder_Iterative$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree_Traversals/com/company/PreOrder_Iterative$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tree_Traversals/com/company/PreOrder_Iterative.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tree_Traversals/com/company/PreOrder_Iterative.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/PreOrder_Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/PreOrder_Iterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PostOrder_Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/PostOrder_Iterative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$Node.class" afterDir="false" />
@@ -195,20 +193,5 @@
       <updated>1651142607129</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/company/InOrder_Iterative.java</url>
-          <line>37</line>
-          <properties class="com.company.InOrder_Iterative" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
