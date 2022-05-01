@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf85e8f1-035f-4f9e-b512-51f695f7620f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/PostOrder_Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/PostOrder_Iterative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$Node.class" afterDir="false" />
@@ -100,6 +98,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "D:/DSA_90"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.PostOrder_Iterative">
     <configuration name="InOrder_Iterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.InOrder_Iterative" />
