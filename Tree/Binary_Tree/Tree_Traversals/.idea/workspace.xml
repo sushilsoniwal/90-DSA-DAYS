@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf85e8f1-035f-4f9e-b512-51f695f7620f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$PreOrderTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$PreOrderTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/src/com/company/Build_Tree_PreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/src/com/company/Build_Tree_PreOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,12 +93,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "D:/DSA_90"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DSA_90/Tree/Binary_Tree/Tree_Traversals&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.PostOrder_Iterative">
+}</component>
+  <component name="RunManager" selected="Application.Boundry_Traversal">
+    <configuration name="Boundry_Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Boundry_Traversal" />
+      <module name="Tree_Traversals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InOrder_Iterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.InOrder_Iterative" />
       <module name="Tree_Traversals" />
@@ -143,19 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostOrder_Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.PostOrder_Recursive" />
-      <module name="Tree_Traversals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PreOrder_Iterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.PreOrder_Iterative" />
       <module name="Tree_Traversals" />
@@ -170,7 +167,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PostOrder_Recursive" />
+      <item itemvalue="Application.Boundry_Traversal" />
       <item itemvalue="Application.InOrder_Recursive" />
       <item itemvalue="Application.PreOrder_Iterative" />
       <item itemvalue="Application.InOrder_Iterative" />
@@ -178,11 +175,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Boundry_Traversal" />
         <item itemvalue="Application.PostOrder_Iterative" />
         <item itemvalue="Application.InOrder_Iterative" />
         <item itemvalue="Application.PreOrder_Iterative" />
         <item itemvalue="Application.InOrder_Recursive" />
-        <item itemvalue="Application.PostOrder_Recursive" />
       </list>
     </recent_temporary>
   </component>
