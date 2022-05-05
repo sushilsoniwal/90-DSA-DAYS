@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7da54a3b-2d07-41b3-bc9c-6eec6e6ddbad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/PreOrder_Construction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/PreOrder_Recursive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$PreOrderTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder$PreOrderTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/out/production/Binary_Trees/com/company/Build_Tree_PreOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Trees/Binary_Trees/src/com/company/Build_Tree_PreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Trees/Binary_Trees/src/com/company/Build_Tree_PreOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree_Traversals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_Traversals/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,9 +86,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "D:/DSA_90/Tree/Binary_Tree/Tree_Constructions"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.PreOrder_Recursive">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
