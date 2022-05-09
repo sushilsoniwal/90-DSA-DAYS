@@ -9,7 +9,6 @@ class Node {
 }
 
 /* Search A Node In BST :- https://bit.ly/38buwEh .*/
-
 public class Search_Node {
     public static boolean search(Node root, int x) {
         if (root == null) {
