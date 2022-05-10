@@ -11,18 +11,44 @@ public class Insert_Node {
         }
     }
 
-    // Method To Insert A Node.
-    public static Node insert(Node root, int key) {
+    // Recursive Method To Insert A Node.
+    public static Node insertRec(Node root, int key) {
         if (root == null) {
             root = new Node(key);
             return root;
         }
         if (key < root.data) {
-            root.left = insert(root.left, key);
+            root.left = insertRec(root.left, key);
         } else if (key > root.data) {
-            root.right = insert(root.right, key);
+            root.right = insertRec(root.right, key);
         }
         return root;
+    }
+
+    // Iterative Method To Insert A Node.
+    public static void insert(Node root, int key) {
+        Node node = new Node(key);
+        if (root == null) {
+            root = node;
+            return;
+        }
+        Node prev = null;
+        Node temp = root;
+        while (temp != null) {
+            prev = temp;
+            if (temp.data > key) {
+                temp = temp.left;
+            } else {
+                temp = temp.right;
+            }
+        }
+        if (prev == null) {
+            prev = node;
+        } else if (prev.data > key) {
+            prev.left = node;
+        } else {
+            prev.right = node;
+        }
     }
 
     public static void main(String[] args) {
